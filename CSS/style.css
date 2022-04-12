@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0 auto;
+    font-family: 'Bebas Neue', cursive;
+    background-color: #000000;
+}
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+nav .profile {
+    display: flex;
+    align-items: center;
+    color: rgb(90, 90, 90);
+}
+
+nav .profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+nav .profile h1 {
+    color:rgb(0, 0, 0);
+    margin-left: 18px;
+    font-size: 20px;
+    font-style: italic;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+nav .profile h1:hover {
+    color: rgb(255, 0, 0);
+}
+
+nav ul{
+    display:flex;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+nav ul a {
+    color: rgb(255, 0, 0);
+}
+nav ul li{
+    margin-left: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+
+nav ul li:hover{
+    border-bottom:1px solid rgb(255, 0, 0);
+}
+
+.page-content {
+    margin: 5%;
+}
+
+.page-content header {
+    margin-top: 5%;
+    max-width: 90%;
+}
+
+.page-content header h1 {
+    color: rgb(255, 0, 0);
+    font-style: italic;
+    margin: 0;
+}
+
+.page-content header p {
+    color: rgb(165, 0, 0);
+}
+
+.page-content header button {
+    background: none;
+    display: inline-block;
+    padding: 2px 20px;
+    color: rgb(255, 0, 0);
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 24px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-bottom: 1px solid rgb(165, 0, 0);
+    border-top: 1px solid rgb(165, 0, 0);
+    border-left: 1px solid rgb(255, 0, 0);
+    border-right: 1px solid rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+.page-content header button:hover {
+    color: rgb(165, 0, 0);
+    background: #000000;
+    box-shadow: 0 0 10px #ff0000, 0 0 40px rgb(165, 0, 0), 0 0 80px #ff0000;
+    transition-delay: 0.2s;
+}
+
+.page-content .presentation-image {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-content .presentation-image img {
+    max-width: 100%;
+    height: 500px;
+}
+
+.page-content .presentation-image img:hover {
+    filter: brightness(50%);
+    transition: filter 0.2s;
+}
+
+.page-content .projects-section{
+    margin: 7%;
+    margin-left: 5%;
+}
+
+.page-content .projects-section h1 {
+    text-transform: uppercase;
+    color: rgb(165, 0, 0);
+    font-size: 3vw;
+}
+
+.page-content .projects-section .projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.page-content .projects-section .projects .project{
+    max-width: 200px;
+    margin-right: 5%;
+}
+
+.page-content .projects-section .projects .project h4{
+    margin: 0;
+    color: rgb(255, 0, 0)
+}
+
+.page-content .projects-section .projects .project .description{
+    color:#000000;
+    font-style: italic;
+}
+
+.page-content .projects-section .projects .project .description:hover{
+    color: rgb(165, 0, 0);
+}
+
+.page-content .projects-section .projects .project .dates{
+    color: rgb(255, 0, 0);
+    font-style: oblique;
+}
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(165, 0, 0);
+    color: #000000;
+    margin-top: auto;
+}
+
+footer .colonne h3{
+    border-bottom: 1px solid;
+    padding: 20px;
+    color:rgb(255, 0, 0)
+}
+
+footer .colonne p{
+    font-style: italic;
+    font-weight: bold;
+    color: #000000;
+    padding: 12px;
+    cursor: pointer;
+}
+
+footer .colonne p:hover{
+    color: white;
+
+}
+@media screen and (max-width: 700px) {
+    nav {
+        justify-content: center;
+    }
+    nav ul {
+        display: none;
+    }
+    .page-content header {
+        margin-top: 10%;
+        max-width: 100%;
+    }
+    .page-content .projects-section {
+        margin-top: 10%;
+    }
+    .page-content .projects-section h1 {
+        font-size: 1.5em;
+    }
+    .page-content .projects-section .projects .project {
+        margin-right: 0;
+        margin-bottom: 20px;
+        max-width: 100%;
+    }
+    footer{
+        justify-content: flex-start;
+    }
+    footer .column{
+        width: 80%;
+    }
+}
