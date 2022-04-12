@@ -66,20 +66,14 @@ nav ul li:hover{
     border-bottom:1px solid rgb(255, 0, 0);
 }
 
-nav ul .icon-facebook img{
-    height: 60px;
-    width: 60px;
-}
+
 
 nav ul .icon-linkedin img {
     height: 60px;
     width: 60px;
 }
 
-nav ul img{
-    height: 60px;
-    width: 60px;
-}
+
 .page-content {
     margin: 5%;
 }
