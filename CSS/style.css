@@ -14,8 +14,8 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
     top: 0;
+    position: sticky;
 }
 
 nav .profile {
@@ -37,6 +37,7 @@ nav .profile h1 {
     font-style: italic;
     cursor: pointer;
     text-decoration: none;
+    mix-blend-mode: difference;
 
 }
 
@@ -46,12 +47,14 @@ nav .profile h1:hover {
 
 nav ul{
     display:flex;
+    justify-content: space-between;
     list-style-type: none;
     margin-left: 10px;
 }
 
 nav ul a {
     color: rgb(255, 0, 0);
+    mix-blend-mode: overlay;
 }
 nav ul li{
     margin-left: 10px;
@@ -63,6 +66,20 @@ nav ul li:hover{
     border-bottom:1px solid rgb(255, 0, 0);
 }
 
+nav ul .icon-facebook img{
+    height: 60px;
+    width: 60px;
+}
+
+nav ul .icon-linkedin img {
+    height: 60px;
+    width: 60px;
+}
+
+nav ul img{
+    height: 60px;
+    width: 60px;
+}
 .page-content {
     margin: 5%;
 }
@@ -168,13 +185,14 @@ footer{
     justify-content: space-around;
     background-color: rgb(165, 0, 0);
     color: #000000;
-    margin-top: auto;
+    width: 100%;
+    bottom: 0;
 }
 
 footer .colonne h3{
     border-bottom: 1px solid;
     padding: 20px;
-    color:rgb(255, 0, 0)
+    color:rgb(0, 0, 0)
 }
 
 footer .colonne p{
