@@ -8,6 +8,10 @@ body {
     background-color: #000000;
 }
 
+i{
+    font-size: 2.5em;
+}
+
 
 nav {
     display: flex;
@@ -31,7 +35,7 @@ nav .profile img {
 }
 
 nav .profile h1 {
-    color:rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
     margin-left: 18px;
     font-size: 20px;
     font-style: italic;
@@ -93,29 +97,7 @@ nav ul .icon-linkedin img {
     color: rgb(165, 0, 0);
 }
 
-.page-content header button {
-    background: none;
-    display: inline-block;
-    padding: 2px 20px;
-    color: rgb(255, 0, 0);
-    letter-spacing: 4px;
-    text-decoration: none;
-    font-size: 24px;
-    overflow: hidden;
-    transition: 0.2s;
-    border-bottom: 1px solid rgb(165, 0, 0);
-    border-top: 1px solid rgb(165, 0, 0);
-    border-left: 1px solid rgb(255, 0, 0);
-    border-right: 1px solid rgb(255, 0, 0);
-    cursor: pointer;
-}
 
-.page-content header button:hover {
-    color: rgb(165, 0, 0);
-    background: #000000;
-    box-shadow: 0 0 10px #ff0000, 0 0 40px rgb(165, 0, 0), 0 0 80px #ff0000;
-    transition-delay: 0.2s;
-}
 
 .page-content .presentation-image {
     margin-top: 5%;
@@ -133,14 +115,33 @@ nav ul .icon-linkedin img {
     transition: filter 0.2s;
 }
 
-.page-content .projects-section{
-    margin: 7%;
+.block{
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+}
+
+.block2{
+    margin: 5px;
+    display: flex;
+    height: 400px;
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    border-radius: 5px;
+    border-color: rgb(165, 0, 0);
+}
+.block2 .page-content .projects-section{
+    margin: 10%;
     margin-left: 5%;
 }
 
 .page-content .projects-section h1 {
     text-transform: uppercase;
-    color: rgb(165, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 3vw;
 }
 
@@ -156,16 +157,16 @@ nav ul .icon-linkedin img {
 
 .page-content .projects-section .projects .project h4{
     margin: 0;
-    color: rgb(255, 0, 0)
+    color: rgb(165, 0, 0);
 }
 
 .page-content .projects-section .projects .project .description{
-    color:#000000;
+    color: rgb(255, 0, 0);
     font-style: italic;
 }
 
 .page-content .projects-section .projects .project .description:hover{
-    color: rgb(165, 0, 0);
+    color: rgb(90, 90, 90);
 }
 
 .page-content .projects-section .projects .project .dates{
