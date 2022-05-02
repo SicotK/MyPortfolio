@@ -1,119 +1,133 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SICOT Kilian</title>
+    <title> Kilian PortFolio</title>
     <script src="https://kit.fontawesome.com/db1434f2c1.js" crossorigin="anonymous"></script>
-   <link rel="stylesheet" href="\MyPortfolio\CSS\style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    
-    <nav>
-        <div class="profile">
-            <img src="\MyPortfolio\Images\photoETNA.jpg" alt="profile photo"/>
-            <a href="index.html">
-                <h1>SICOT Kilian</h1>
-            </a>
-        </div>
-        <ul>
-            <a href="https://www.linkedin.com/in/kilian-sicot-94ba8421a/url" class="icon-linkedin">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-        </ul>
-    </nav>
+    <div class="hero">
+        <nav>
+            <h2 class="logo"> <span>Por</span>tFo<span>lio</span></h2>
+            <ul>
+                <li><a href="#"> Home</a></li>
+                <li><a href="#"> A propos de moi </a></li>
+                <li><a href="#"> Compétences </a></li>
+                <li><a href="#"> Contactez moi </a></li>
+            </ul>
+            <a href="#" class="btn"> Téléchargez le CV</a>
+        </nav>
 
-    <section class="page-content">
-        <header>
-            <h1>Je suis actuellement étudiant à l'ETNA, Ecole supérieure informatique. 
-                Je suis en cursus préparatoire. J'aimerai vous présentez mes projets effectués pendant l'année.</h1>
-            <p>
-                Je suis quelqu'un de curieux, toujours là a accumulé des connaissances et à maîtriser ce que j'entreprends.
-            </p>
-        </header>
-
-        <section class="presentation-image">
-            <img src="\MyPortfolio\Images\Mining game.JPG" alt="presentation image"/>
-            <img src="\MyPortfolio\Images\1ère salle Graven.JPG" alt="presentation image"/>
-            <img src="\MyPortfolio\Images\candid Mentor Goal.JPG" alt="presentation image">
-            <img src="\MyPortfolio\Images\Screenshot_2022-04-29-15-14-22-350_com.example.helloresto.png" alt="presentation image">
-        </section>
-
-        <div class="block">
-            <div class="block2">
-                <section class="projects-section">
-                    <h1>Projets réalisés au cours de l'année</h1>
-                        <div class="projects">
-                            <div class="project">
-                               <h4> Hyrule Castle : Bash</h4>
-                               <p class="description">
-                                Création d'un jeu en Bash sur le thème de Zelda, un jeu tour par tour.
-                               </p>
-                               <p class="dates"> Septembre 2021 </p>
-                            </div>
-                            <div class="project">
-                                <h4> Clicker Game : HTML / CSS / Javascript</h4>
-                                <p class="description">
-                                    Création d'un jeu de clicker basé sur le minage d'etherium en utilisant du
-                                    HTML, du CSS pour la partie front, utlisation de Javascript pour la partie back.
-                                 </p>
-                                <p class="dates"> Novembre 2021 </p>
-                            </div>
-                            <div class="project">
-                                <h4> HACKATHON : HTML / CSS / PHP (Laravel) / MySQL</h4>
-                                <p class="description">
-                                    Travail pour l'entreprise Mentor Goal, création de pages web de gestion
-                                    de candidatures, d'enregistrement et de renvoi sur Linkedin. Implentation
-                                    d'une extension sur Chrome et Safari.
-                                </p>
-                                <p class="dates">Décembre 2021</p>
-                            </div>
-                            <div class="project">
-                                <h4> Liberty Commerce : HTML / CSS / PHP (Laravel) / MySQL</h4>
-                                <p class="description">
-                                    - Site d'e-commerce mis en place au sein de ma formation.
-                                    -Mise en place des routes et des controllers, en suivant une logique MVC
-                                </p>
-                                <p class="dates">Octobre 2021 à Décembre 2021</p>
-                            </div>
-                            <div class="project">
-                                <h4> Défi Jeu Vidéo : C# / Unity</h4>
-                                <p class="description">
-                                    - Création d'un jeu de type rogue-like, donc un donjon avec des
-                                    restrictions, tels que un nombre de salles de minimum de cinq, un
-                                    boss de fin à combattre, donc créer un jeu fonctionnel en 8 jours
-                                    sur Unity.
-                                </p>
-                                <p class="dates">Mars 2022</p>
-                            </div>
-                        </div>
-                </section>
+        <div class="content">
+            <h4>Bonjour, je m'appelle</h4>
+            <h1> Kilian SICOT</h1>
+            <h3> Je suis un<span> développeur web.</span></h3>
+            <div class="newsletter">
+                <form>
+                    <input type="email" name="email" id="mail" placeholder="Enter your email address">
+                    <input type="submit" name="submit" value="Let's start">
+                </form>
 
             </div>
         </div>
-       
+    </div>
+
+    <section class="about">
+        <div class="main">
+            <img src="/PortFolio/Photos/Photo de profil.jpg" alt="profile">
+            <div class="about-text">
+                <h2> Qui je suis ?</h2>
+                <h5><span> Développeur et designer</span></h5>
+                <p>Etudiant à l'ETNA (École des technologies numériques appliquées) 
+                    en tant que développeur web, donc je suis actuellement en recherche d'alternance pour un job de développeur Front-end ou 
+                    développeur web Fullstack. J'ai toujours envie d'apprendre et je pense que le meilleur moyen de le faire est via une alternance puisque l'on travaille tout en apprenant, 
+                    de plus il y a un contact continu avec le monde professionnel, ce que recherche les patrons et les recruteurs, ils veulent des personnes de type professionnel. </p>
+                <button type="button"> Let's talk !</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="service">
+        <div class="title">
+            <h2> Mes compétences </h2>
+        </div>
+        <div class="box">
+            <div class="card">
+                <i class="fa-solid fa-address-card"></i>
+                <h5> Développement Web</h5>
+                <div class="pra">
+                    <p>Le développement web me passionne, créer des sites web, des applications web 
+                        ou mobiles, et autres. Utiliser différents langages pour programmer,
+                        avoir de plus en plus de connaissances, c'est pour cela que je veux travailler 
+                        dans ce milieu.
+                    </p>
+
+                    <p style="text-align:center;">
+                        <a class="button" href="#"> Read More</a>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <i class="fa-solid fa-laptop"></i>
+                <h5> Développement Web</h5>
+                <div class="pra">
+                    <p> HTML, CSS, JS, React.js, Node.js
+                    </p>
+                    <p> PHP / SYMPHONY JAVASCRIPT</p>
+                    <p>C, C# Python</p>
+
+
+                    <p style="text-align:center;">
+                        <a class="button" href="#"> Read More</a>
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="card">
+                <i class="fa-brands fa-android"></i>
+                <h5> Développement Web</h5>
+                <div class="pra">
+                    <p>Le développement web me passionne, créer des sites web, des applications web 
+                        ou mobiles, et autres. Utiliser différents langages pour programmer,
+                        avoir de plus en plus de connaissances, c'est pour cela que je veux travailler 
+                        dans ce milieu.
+                    </p>
+
+                    <p style="text-align:center;">
+                        <a class="button" href="#"> Read More</a>
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="contact-me"> 
+        <p> Laissez moi faire pour le design de vos sites !</p>
+        <a class="button-two" href="#"> Embauchez-moi </a>
+    </div>
 
     <footer>
-        <div class="colonne">
-            <h3> Développement Web</h3>
-                <p>HTML, CSS, JS</p>
-                <p>PHP/Symphony</p>
-                <p>Javascript</p>
-                <p>C, C#</p>
-                <p>Python</p>
+        <p>Kilian SICOT</p>
+        <p>N'hesitez pas à me contacter si vous vous voulez en 
+            savoir plus sur moi ou mes projets !</p>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
         </div>
-        <div class="colonne">
-            <h3> Environnement</h3>
-                <p>Windows</p>
-                <p> Debian/Linux</p>
-        </div>
-        <div class="colonne">
-            <h3>Mes coordonnées</h3>
-                <p>kiliansicot@gmail.com</p>
-                <p>sicot_k@etna-alternance.net</p>
-                <p>06 51 77 37 64 </p>
-        </div>
+        <p class="end">Made by Kilian SICOT</p>
     </footer>
+
+
 </body>
 </html>
