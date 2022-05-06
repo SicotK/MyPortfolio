@@ -4,6 +4,8 @@
     <title> Kilian PortFolio</title>
     <script src="https://kit.fontawesome.com/db1434f2c1.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <script src="/PortFolio/MyPortfolio/mixitup.js"></script>
 </head>
 <body>
     <div class="hero">
@@ -96,6 +98,102 @@
 
     </div>
 
+    <section class="work section" id="work">
+        <h2 data-heading="Mon Portfolio" class="section__title"> Projets recents</h2>
+
+        <div class="work__filters">
+            <span class="work__item active-work" data-filter="all"> All</span>
+            <span class="work__item" data-filter=".web">Web</span>
+            <span class="work__item" data-filter=".app">App</span>
+            <span class="work__item" data-filter=".design">Design</span>
+        </div>
+
+        <div class="work__container container grid">
+            <div class="work__card mix design">
+                <img src="/PortFolio/MyPortfolio/Images/1ère salle Graven.JPG" alt="" class="work__img">
+                <h3 class="work__title">Création d'un jeu vidéo</h3>
+                <div class="portfolio__item-details">
+                    <h3 class="details__title">HACKATON Graven</h3>
+                    <p class="details__description"> Création d'un jeu de type rogue-like, donc un donjon avec des
+                        restrictions, tels que un nombre de salles de minimum de cinq, un
+                        boss de fin à combattre, donc créer un jeu fonctionnel en 8 jours
+                        sur Unity.  </p>
+                    <ul class="details__info">
+                        <li>Créer - <span>Mars 2022</span></li>
+                        <li>Technologies - <span>C#, Unity pour le moteur de jeu</span></li>
+                        <li>Role - <span>Création de la map,
+                            des monstres et des animations.
+                        </span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work__card mix app">
+                <img src="/PortFolio/Images/activity_main.xml HelloResto.JPG" alt="" class="work__img">
+                <h3 class="work__title">Création d'une app Android.</h3>
+                <span class="work__button">Demo
+                    <i class="vil vil-arrow-right work__button-icon"></i>
+                </span>
+                <div class="portfolio__item-details">
+                    <h3 class="details__title">App HelloResto</h3>
+                    <p class="details__description">Création d'une application de restauration via Android Studios,
+                        on peut se connecter et enregistrer son compte, redirection vers des restaurants et leur menus.
+                    </p>  </p>
+                    <ul class="details__info">
+                        <li>Créer - <span>Février 2022</span></li>
+                        <li>Technologies - <span>Kotlin, Android Studios pour faire l'application mobile.</span></li>
+                        <li>Role - <span> Design de l'app, creation des boutons et des pages, front-end. 
+                        </span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work__card mix web">
+                <img src="/PortFolio/Images/Parametre Mentor Goal.JPG" alt="" class="work__img">
+                <h3 class="work__title">Mentor Goal</h3>
+                <span class="work__button">Demo
+                    <i class="vil vil-arrow-right work__button-icon"></i>
+                </span>
+                <div class="portfolio__item-details">
+                    <h3 class="details__title">HACKATON Mentor Goal</h3>
+                    <p class="details__description">Travail pour l'entreprise Mentor Goal, création de pages web de gestion
+                        de candidatures, d'enregistrement et de renvoi sur Linkedin. Implentation
+                        d'une extension sur Chrome et Safari.  </p>
+                    <ul class="details__info">
+                        <li>Créer - <span>Décembre 2021</span></li>
+                        <li>Technologies - <span>HTML/CSS/PHP(Laravel)/ MySQL</span></li>
+                        <li>Role - <span>Création de la paramètres, donc la page où les utilisateurs s'enregistrent.
+                            Aide pour l'extension Chrome.
+                        </span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="work__card mix design">
+                <img src="/PortFolio/Images/Mining game.JPG" alt="" class="work__img">
+                <h3 class="work__title">Design d'un clicker game.</h3>
+                <span class="work__button">Demo
+                    <i class="vil vil-arrow-right work__button-icon"></i>
+                </span>
+                <div class="portfolio__item-details">
+                    <h3 class="details__title">Mining Game</h3>
+                    <p class="details__description">Création d'un jeu de clicker basé sur le minage d'etherium en utilisant du
+                        HTML, du CSS pour la partie front, utlisation de Javascript pour la partie
+                        back.
+                           </p>
+                    <ul class="details__info">
+                        <li>Créer - <span>Novembre 2021</span></li>
+                        <li>Technologies - <span>HTML/CSS/JAVASCRIPT</span></li>
+                        <li>Role - <span>Travail sur le design du clicker, front-end.
+                        </span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
     <div class="contact-me"> 
         <p> Laissez moi faire pour le design de vos sites !</p>
         <a class="button-two" href="#"> Embauchez-moi </a>
@@ -113,6 +211,8 @@
         </div>
         <p class="end">Made by Kilian SICOT</p>
     </footer>
+
+    <script src="/PortFolio/MyPortfolio/main.js"></script>
 
 
 </body>
