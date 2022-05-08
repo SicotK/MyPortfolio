@@ -16,6 +16,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
 }
 nav{
     display: flex;
@@ -460,3 +462,15 @@ footer p:nth-child(2){
     font-size: 14px;
 
 }
+
+::-webkit-scrollbar{
+    width: .60rem;
+    background-color: rgb(255, 0, 0);
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: .5rem;
+}
+@media screen 
