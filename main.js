@@ -15,3 +15,5 @@ function activeWork() {
 }
 
 LinkWork.forEach(L=> l.addEventListener('click', activeWork))
+
+
